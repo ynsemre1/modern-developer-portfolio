@@ -1,20 +1,20 @@
-"use client"
+"use client";
 
-import { useEffect, useState } from "react"
-import { Button } from "@/components/ui/button"
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react"
-import Link from "next/link"
-import { motion } from "framer-motion"
+import { useEffect, useState } from "react";
+import { Button } from "@/components/ui/button";
+import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function Hero() {
-  const [isMounted, setIsMounted] = useState(false)
+  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    setIsMounted(true)
-  }, [])
+    setIsMounted(true);
+  }, []);
 
   if (!isMounted) {
-    return null
+    return null;
   }
 
   return (
@@ -26,7 +26,11 @@ export default function Hero() {
 
       <div className="container relative z-10 px-4 sm:px-6 lg:px-8 mx-auto">
         <div className="text-center">
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
             <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
               <span className="block">Hi, I'm</span>
               <span className="block text-primary mt-2">Yunus Emre</span>
@@ -62,13 +66,21 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.6 }}
           >
-            <Link href="https://github.com/ynsemre1" target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://github.com/ynsemre1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button variant="ghost" size="icon">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </Button>
             </Link>
-            <Link href="https://www.linkedin.com/in/yunusemreakyol" target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://www.linkedin.com/in/yunusemreakyol"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button variant="ghost" size="icon">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
@@ -83,15 +95,19 @@ export default function Hero() {
           </motion.div>
         </div>
 
-        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex justify-center items-center animate-bounce">
+        <motion.div
+          className="mt-12 flex justify-center items-center"
+          animate={{ y: [0, -10, 0] }}
+          transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
+        >
           <Link href="#about">
             <Button variant="ghost" size="icon" className="rounded-full">
               <ArrowDown className="h-6 w-6" />
               <span className="sr-only">Scroll down</span>
             </Button>
           </Link>
-        </div>
+        </motion.div>
       </div>
     </section>
-  )
+  );
 }
