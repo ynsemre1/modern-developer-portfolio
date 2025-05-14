@@ -41,8 +41,7 @@ export default function About() {
               <p>
                 Hello! I'm Yunus Emre, a passionate mobile developer striving to
                 specialize in Swift, C#, JavaScript, and React. I focus on
-                building beautiful, functional, and problem-solving mobile
-                applications.
+                building beautiful, functional, and problem-solving applications.
               </p>
               <p>
                 With several years of experience in mobile development, I've
