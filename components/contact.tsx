@@ -52,8 +52,8 @@ export default function Contact() {
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email",
-      value: "contact@example.com",
-      link: "mailto:contact@example.com",
+      value: "yunusemreakyol000@gmail.com",
+      link: "mailto:yunusemreakyol000@gmail.com",
     },
     {
       icon: <Phone className="h-6 w-6" />,
@@ -64,8 +64,8 @@ export default function Contact() {
     {
       icon: <MapPin className="h-6 w-6" />,
       title: "Location",
-      value: "Istanbul, Turkey",
-      link: "https://maps.google.com/?q=Istanbul,Turkey",
+      value: "Ankara, Turkey",
+      link: "https://maps.google.com/?q=Ankara,Turkey",
     },
   ]
 
