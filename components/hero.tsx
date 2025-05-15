@@ -43,7 +43,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Software Developer specializing in Swift, Kotlin, and React Native
+            Software Engineer specializing in C#, Swift, JavaScript and React Native
           </motion.p>
 
           <motion.div
@@ -86,7 +86,7 @@ export default function Hero() {
                 <span className="sr-only">LinkedIn</span>
               </Button>
             </Link>
-            <Link href="mailto:contact@example.com">
+            <Link href="mailto:yunusemreakyol000@gmail.com">
               <Button variant="ghost" size="icon">
                 <Mail className="h-5 w-5" />
                 <span className="sr-only">Email</span>

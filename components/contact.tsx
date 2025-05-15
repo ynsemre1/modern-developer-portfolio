@@ -49,25 +49,23 @@ export default function Contact() {
   }
 
   const contactInfo = [
-    {
-      icon: <Mail className="h-6 w-6" />,
-      title: "Email",
-      value: "yunusemreakyol000@gmail.com",
-      link: "mailto:yunusemreakyol000@gmail.com",
-    },
-    {
-      icon: <Phone className="h-6 w-6" />,
-      title: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567",
-    },
-    {
-      icon: <MapPin className="h-6 w-6" />,
-      title: "Location",
-      value: "Ankara, Turkey",
-      link: "https://maps.google.com/?q=Ankara,Turkey",
-    },
-  ]
+  {
+    icon: <Mail className="h-6 w-6" />,
+    title: "Email",
+    value: (
+      <span className="text-xs">yunusemreakyol000@gmail.com</span>
+    ),
+    link: "mailto:yunusemreakyol000@gmail.com",
+  },
+  {
+    icon: <MapPin className="h-6 w-6" />,
+    title: "Location",
+    value: (
+      <span className="text-xs">Ankara, Turkey</span>
+    ),
+    link: "https://maps.google.com/?q=Ankara,Turkey",
+  },
+]
 
   return (
     <section id="contact" className="py-20">

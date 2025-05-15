@@ -24,7 +24,7 @@ export default function About() {
             className="relative aspect-square max-w-md mx-auto md:mx-0 overflow-hidden rounded-2xl"
           >
             <Image
-              src="/placeholder.svg?height=400&width=400"
+              src="/myimage.jpeg?height=400&width=400"
               alt="Yunus Emre"
               fill
               className="object-cover"
@@ -39,9 +39,9 @@ export default function About() {
             <h2 className="text-3xl font-bold mb-6">About Me</h2>
             <div className="space-y-4">
               <p>
-                Hello! I'm Yunus Emre, a passionate mobile developer striving to
-                specialize in Swift, C#, JavaScript, and React. I focus on
-                building beautiful, functional, and problem-solving applications.
+                Hello! I’m Yunus Emre, a passionate full stack developer striving to 
+                specialize in Swift, C#, JavaScript, and React. I focus on building
+                functional and solution-oriented applications.
               </p>
               <p>
                 With several years of experience in mobile development, I've
