@@ -31,7 +31,7 @@
   <img src="./screenshots/home.png" width="600" alt="Home" />
   <img src="./screenshots/about.png" width="600" alt="About" />
   <img src="./screenshots/projects.png" width="600" alt="Projects" />
-  <img src="./screenshots/getintouch" width="600" alt="Contact form" />
+  <img src="./screenshots/getintouch.png" width="600" alt="Contact form" />
 </p>
 
 ---
