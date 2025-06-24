@@ -12,7 +12,7 @@ export default function Footer() {
             <Link href="/" className="text-xl font-bold">
               Yunus Emre
             </Link>
-            <p className="text-muted-foreground mt-1">Mobile Developer</p>
+            <p className="text-muted-foreground mt-1">Full Stack Developer</p>
           </div>
 
           <div className="flex items-center gap-6">
